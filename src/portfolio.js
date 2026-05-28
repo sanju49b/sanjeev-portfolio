@@ -24,7 +24,8 @@ const greeting = {
   nickname: "",
   subTitle:
     "AI/ML Engineer based in London. I build production LLM systems, multi-agent orchestrators, and RAG pipelines. Presented to the UK Deputy PM and former PM. MSc AI, Distinction (Coventry University).",
-  resumeLink: "",
+  resumeLink: "https://www.unimad.ai/resume/sanjeev-bandaru",
+  calendlyLink: "https://calendly.com/sanjubandaru14",
   portfolio_repository: "https://github.com/sanju49b",
   githubProfile: "https://github.com/sanju49b",
 };
@@ -50,7 +51,7 @@ const socialMediaLinks = [
   },
   {
     name: "Medium",
-    link: "https://medium.com/@sanju49b",
+    link: "https://medium.com/@sanjubandaru14",
     fontAwesomeIcon: "fa-medium",
     backgroundColor: "#000000",
   },
@@ -223,7 +224,7 @@ const competitiveSites = {
       siteName: "Medium",
       iconifyClassname: "simple-icons:medium",
       style: { color: "#000000" },
-      profileLink: "https://medium.com/@sanju49b",
+      profileLink: "https://medium.com/@sanjubandaru14",
     },
     {
       siteName: "LinkedIn",
@@ -363,19 +364,13 @@ const publications = {
   data: [
     {
       id: "road-to-kubernetes-part1",
-      name: "Road to Kubernetes: From Zero to Your First Running Container",
-      createdAt: "2026-05-01T00:00:00Z",
+      name:
+        "Road to Kubernetes Article 1: From Zero to Your First Running Container",
+      createdAt: "2026-05-21T00:00:00Z",
       description:
-        "Part 1 of an ongoing series on Kubernetes from first principles: containers, architecture and production deployment. Published on Medium.",
-      url: "https://medium.com/@sanju49b",
-    },
-    {
-      id: "mcp-security-research",
-      name: "Securing MCP Servers in Production (In Progress)",
-      createdAt: "2026-01-01T00:00:00Z",
-      description:
-        "Research paper co-authored with Coventry University professors on securing Model Context Protocol servers in production: prompt injection, tool poisoning, data exfiltration, and a hardened mitigation framework.",
-      url: "https://github.com/sanju49b",
+        "Introduces Kubernetes from first principles — why it exists, how operating systems and kernels work, the difference between VMs and containers, and how Docker layers set the stage for orchestration at scale. Part 1 of an ongoing series.",
+      url:
+        "https://medium.com/@sanjubandaru14/road-to-kubernetes-article-1-from-zero-to-your-first-running-container-507819b491df",
     },
   ],
 };
@@ -392,7 +387,7 @@ const contactPageData = {
     title: "Articles & Writing",
     subtitle:
       "Technical writing on AI engineering, Kubernetes, and production ML systems. Lessons from real enterprise deployments.",
-    link: "https://medium.com/@sanju49b",
+    link: "https://medium.com/@sanjubandaru14",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {

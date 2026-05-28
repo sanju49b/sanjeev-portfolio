@@ -7,7 +7,7 @@ import Button from "../../components/button/Button";
 import BlogsImg from "./BlogsImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { contactPageData } from "../../portfolio.js";
+import { contactPageData, greeting } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -35,6 +35,28 @@ class Contact extends Component {
                   {ContactData["description"]}
                 </p>
                 <SocialMedia theme={theme} />
+                <div className="contact-cta-btns">
+                  {greeting.calendlyLink && (
+                    <a
+                      className="cta-btn cta-btn-primary"
+                      href={greeting.calendlyLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      📅 Book a Call
+                    </a>
+                  )}
+                  {greeting.resumeLink && (
+                    <a
+                      className="cta-btn cta-btn-secondary"
+                      href={greeting.resumeLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      📄 Download Resume
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           </Fade>

@@ -29,6 +29,44 @@
   color: #868e96;
 }
 
+/* Shared CTA buttons */
+.cta-btn {
+  display: inline-block;
+  padding: 16px 36px;
+  font-size: 18px;
+  font-family: "Google Sans Bold";
+  font-weight: 700;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.2s ease,
+    box-shadow 0.25s ease;
+}
+
+.cta-btn-primary {
+  color: #ffffff;
+  background-color: #006bff;
+  box-shadow: 0 4px 15px rgba(0, 107, 255, 0.35);
+}
+
+.cta-btn-primary:hover {
+  background-color: #0050cc;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 107, 255, 0.5);
+}
+
+.cta-btn-secondary {
+  color: #ffffff;
+  background-color: #333333;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cta-btn-secondary:hover {
+  background-color: #111111;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
 /* Animations */
 @keyframes fade_down {
   0% {

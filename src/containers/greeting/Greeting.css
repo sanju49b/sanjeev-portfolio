@@ -55,6 +55,13 @@
   height: auto;
 }
 
+.greeting-cta-btns {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
@@ -90,6 +97,10 @@
   .portfolio-repo-btn-div {
     width: 100%;
     display: flex;
+    justify-content: center;
+  }
+
+  .greeting-cta-btns {
     justify-content: center;
   }
 }

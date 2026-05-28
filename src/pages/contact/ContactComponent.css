@@ -108,6 +108,14 @@
   font-family: "Google Sans Medium";
 }
 
+.contact-cta-btns {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
 .resume-btn-div {
   width: 100%;
   display: flex;
