@@ -43,7 +43,10 @@ class Contact extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      📅 Book a Call
+                      <span role="img" aria-label="calendar">
+                        📅
+                      </span>{" "}
+                      Book a Call
                     </a>
                   )}
                   {greeting.resumeLink && (
@@ -53,7 +56,10 @@ class Contact extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      📄 Download Resume
+                      <span role="img" aria-label="document">
+                        📄
+                      </span>{" "}
+                      Download Resume
                     </a>
                   )}
                 </div>

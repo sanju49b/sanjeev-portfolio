@@ -46,7 +46,10 @@ export default function Greeting(props) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    📅 Book a Call
+                    <span role="img" aria-label="calendar">
+                      📅
+                    </span>{" "}
+                    Book a Call
                   </a>
                 )}
                 {greeting.resumeLink && (
@@ -56,7 +59,10 @@ export default function Greeting(props) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    📄 Download Resume
+                    <span role="img" aria-label="document">
+                      📄
+                    </span>{" "}
+                    Download Resume
                   </a>
                 )}
               </div>
